@@ -1,0 +1,9 @@
+c:\users\bob\documents\visual studio 2012\Projects\GenHtmlFormFields\GenHtmlFormFields\bin\Debug\GenHtmlFormFields.exe.config
+c:\users\bob\documents\visual studio 2012\Projects\GenHtmlFormFields\GenHtmlFormFields\obj\Debug\GenHtmlFormFields.csprojResolveAssemblyReference.cache
+c:\users\bob\documents\visual studio 2012\Projects\GenHtmlFormFields\GenHtmlFormFields\obj\Debug\GenHtmlFormFields.Form1.resources
+c:\users\bob\documents\visual studio 2012\Projects\GenHtmlFormFields\GenHtmlFormFields\obj\Debug\GenHtmlFormFields.Properties.Resources.resources
+c:\users\bob\documents\visual studio 2012\Projects\GenHtmlFormFields\GenHtmlFormFields\obj\Debug\GenHtmlFormFields.csproj.GenerateResource.Cache
+c:\users\bob\documents\visual studio 2012\Projects\GenHtmlFormFields\GenHtmlFormFields\bin\Debug\GenHtmlFormFields.exe
+c:\users\bob\documents\visual studio 2012\Projects\GenHtmlFormFields\GenHtmlFormFields\bin\Debug\GenHtmlFormFields.pdb
+c:\users\bob\documents\visual studio 2012\Projects\GenHtmlFormFields\GenHtmlFormFields\obj\Debug\GenHtmlFormFields.exe
+c:\users\bob\documents\visual studio 2012\Projects\GenHtmlFormFields\GenHtmlFormFields\obj\Debug\GenHtmlFormFields.pdb

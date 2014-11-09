@@ -1,0 +1,1026 @@
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="card_other" ng-model="org.card_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="cardAthero" ng-model="org.cardAthero">Atherosclerosis</label>
+<div class="col-md-5">
+<input type="text" name="cardAthero_cnt" ng-model="org.cardAthero_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="cardCardia" ng-model="org.cardCardia">Cardiac Ischemia</label>
+<div class="col-md-5">
+<input type="text" name="cardCardia_cnt" ng-model="org.cardCardia_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="cardCardio" ng-model="org.cardCardio">Cardiomyopathies</label>
+<div class="col-md-5">
+<input type="text" name="cardCardio_cnt" ng-model="org.cardCardio_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="cardCerebr" ng-model="org.cardCerebr">Cerebral Ischemia</label>
+<div class="col-md-5">
+<input type="text" name="cardCerebr_cnt" ng-model="org.cardCerebr_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="cardDeepV" ng-model="org.cardDeepV">Deep Venous Thrombosis</label>
+<div class="col-md-5">
+<input type="text" name="cardDeepV_cnt" ng-model="org.cardDeepV_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="cardDysrhy" ng-model="org.cardDysrhy">Dysrhythmias</label>
+<div class="col-md-5">
+<input type="text" name="cardDysrhy_cnt" ng-model="org.cardDysrhy_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="cardHeart" ng-model="org.cardHeart">Heart Failure</label>
+<div class="col-md-5">
+<input type="text" name="cardHeart_cnt" ng-model="org.cardHeart_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="cardHyperl" ng-model="org.cardHyperl">Hyperlipidemia</label>
+<div class="col-md-5">
+<input type="text" name="cardHyperl_cnt" ng-model="org.cardHyperl_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="cardHypert" ng-model="org.cardHypert">Hypertension</label>
+<div class="col-md-5">
+<input type="text" name="cardHypert_cnt" ng-model="org.cardHypert_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="cardPeriph" ng-model="org.cardPeriph">Peripheral Vascular Disease</label>
+<div class="col-md-5">
+<input type="text" name="cardPeriph_cnt" ng-model="org.cardPeriph_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="endo_other" ng-model="org.endo_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="endoAdrena" ng-model="org.endoAdrena">Adrenal Gland Disorders</label>
+<div class="col-md-5">
+<input type="text" name="endoAdrena_cnt" ng-model="org.endoAdrena_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="endoDiabet" ng-model="org.endoDiabet">Diabetes Mellitus</label>
+<div class="col-md-5">
+<input type="text" name="endoDiabet_cnt" ng-model="org.endoDiabet_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="endoEndocr" ng-model="org.endoEndocr">Endocrinologic System Malignancies</label>
+<div class="col-md-5">
+<input type="text" name="endoEndocr_cnt" ng-model="org.endoEndocr_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="endoObesit" ng-model="org.endoObesit">Obesity</label>
+<div class="col-md-5">
+<input type="text" name="endoObesit_cnt" ng-model="org.endoObesit_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="endoOvaria" ng-model="org.endoOvaria">Ovarian Disorders</label>
+<div class="col-md-5">
+<input type="text" name="endoOvaria_cnt" ng-model="org.endoOvaria_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="endoWeight" ng-model="org.endoWeight">Weight Loss</label>
+<div class="col-md-5">
+<input type="text" name="endoWeight_cnt" ng-model="org.endoWeight_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="eye_other" ng-model="org.eye_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="eyeCatara" ng-model="org.eyeCatara">Cataracts</label>
+<div class="col-md-5">
+<input type="text" name="eyeCatara_cnt" ng-model="org.eyeCatara_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="eyeConjun" ng-model="org.eyeConjun">Conjunctival Disorders</label>
+<div class="col-md-5">
+<input type="text" name="eyeConjun_cnt" ng-model="org.eyeConjun_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="eyeContac" ng-model="org.eyeContac">Contact Lens</label>
+<div class="col-md-5">
+<input type="text" name="eyeContac_cnt" ng-model="org.eyeContac_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="eyeDryEy" ng-model="org.eyeDryEy">Dry Eyes</label>
+<div class="col-md-5">
+<input type="text" name="eyeDryEy_cnt" ng-model="org.eyeDryEy_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="eyeEyeIn" ng-model="org.eyeEyeIn">Eye Infections</label>
+<div class="col-md-5">
+<input type="text" name="eyeEyeIn_cnt" ng-model="org.eyeEyeIn_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="eyeEyeIn" ng-model="org.eyeEyeIn">Eye Inflammation</label>
+<div class="col-md-5">
+<input type="text" name="eyeEyeIn_cnt" ng-model="org.eyeEyeIn_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="eyeGlauco" ng-model="org.eyeGlauco">Glaucoma</label>
+<div class="col-md-5">
+<input type="text" name="eyeGlauco_cnt" ng-model="org.eyeGlauco_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="eyeKerati" ng-model="org.eyeKerati">Keratitis</label>
+<div class="col-md-5">
+<input type="text" name="eyeKerati_cnt" ng-model="org.eyeKerati_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="rpf_other" ng-model="org.rpf_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpfContra" ng-model="org.rpfContra">Contraception</label>
+<div class="col-md-5">
+<input type="text" name="rpfContra_cnt" ng-model="org.rpfContra_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="eye_other" ng-model="org.eye_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="eyeRetina" ng-model="org.eyeRetina">Retinal Disorders</label>
+<div class="col-md-5">
+<input type="text" name="eyeRetina_cnt" ng-model="org.eyeRetina_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="eyeVisual" ng-model="org.eyeVisual">Visual Acuity</label>
+<div class="col-md-5">
+<input type="text" name="eyeVisual_cnt" ng-model="org.eyeVisual_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="endo_other" ng-model="org.endo_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="endoHormon" ng-model="org.endoHormon">Hormone Replacement Therapy</label>
+<div class="col-md-5">
+<input type="text" name="endoHormon_cnt" ng-model="org.endoHormon_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="gi_other" ng-model="org.gi_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giDuoden" ng-model="org.giDuoden">Duodenal Ulcer</label>
+<div class="col-md-5">
+<input type="text" name="giDuoden_cnt" ng-model="org.giDuoden_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giEsopha" ng-model="org.giEsopha">Esophageal Disorders</label>
+<div class="col-md-5">
+<input type="text" name="giEsopha_cnt" ng-model="org.giEsopha_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giGallB" ng-model="org.giGallB">Gall Bladder Disorders</label>
+<div class="col-md-5">
+<input type="text" name="giGallB_cnt" ng-model="org.giGallB_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giGastri" ng-model="org.giGastri">Gastric Ulcer</label>
+<div class="col-md-5">
+<input type="text" name="giGastri_cnt" ng-model="org.giGastri_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giGastro" ng-model="org.giGastro">Gastroenteritis</label>
+<div class="col-md-5">
+<input type="text" name="giGastro_cnt" ng-model="org.giGastro_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giGastro" ng-model="org.giGastro">Gastroesophageal Reflux Disease</label>
+<div class="col-md-5">
+<input type="text" name="giGastro_cnt" ng-model="org.giGastro_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giGastro" ng-model="org.giGastro">Gastrointestinal System Malignancies</label>
+<div class="col-md-5">
+<input type="text" name="giGastro_cnt" ng-model="org.giGastro_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giHeartb" ng-model="org.giHeartb">Heartburn</label>
+<div class="col-md-5">
+<input type="text" name="giHeartb_cnt" ng-model="org.giHeartb_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giHepati" ng-model="org.giHepati">Hepatitis C</label>
+<div class="col-md-5">
+<input type="text" name="giHepati_cnt" ng-model="org.giHepati_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giIrrita" ng-model="org.giIrrita">Irritable Bowel Syndrome</label>
+<div class="col-md-5">
+<input type="text" name="giIrrita_cnt" ng-model="org.giIrrita_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giLiver" ng-model="org.giLiver">Liver Disorders</label>
+<div class="col-md-5">
+<input type="text" name="giLiver_cnt" ng-model="org.giLiver_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giMalabs" ng-model="org.giMalabs">Malabsorption</label>
+<div class="col-md-5">
+<input type="text" name="giMalabs_cnt" ng-model="org.giMalabs_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giRegion" ng-model="org.giRegion">Regional Enteritis (Crohn's Disease)</label>
+<div class="col-md-5">
+<input type="text" name="giRegion_cnt" ng-model="org.giRegion_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="giUlcera" ng-model="org.giUlcera">Ulcerative Colitis</label>
+<div class="col-md-5">
+<input type="text" name="giUlcera_cnt" ng-model="org.giUlcera_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="hem_other" ng-model="org.hem_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="hemAnemia" ng-model="org.hemAnemia">Anemia</label>
+<div class="col-md-5">
+<input type="text" name="hemAnemia_cnt" ng-model="org.hemAnemia_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="hemCoagul" ng-model="org.hemCoagul">Coagulation Defects</label>
+<div class="col-md-5">
+<input type="text" name="hemCoagul_cnt" ng-model="org.hemCoagul_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="hemHemato" ng-model="org.hemHemato">Hematologic System Malignancies</label>
+<div class="col-md-5">
+<input type="text" name="hemHemato_cnt" ng-model="org.hemHemato_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="hemPlatel" ng-model="org.hemPlatel">Platelet Disorders</label>
+<div class="col-md-5">
+<input type="text" name="hemPlatel_cnt" ng-model="org.hemPlatel_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="hemRedBl" ng-model="org.hemRedBl">Red Blood Cell Disorders</label>
+<div class="col-md-5">
+<input type="text" name="hemRedBl_cnt" ng-model="org.hemRedBl_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="hemWhite" ng-model="org.hemWhite">White Blood Cell Disorders</label>
+<div class="col-md-5">
+<input type="text" name="hemWhite_cnt" ng-model="org.hemWhite_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="mental_other" ng-model="org.mental_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalAlzhei" ng-model="org.mentalAlzhei">Alzheimer's Disease</label>
+<div class="col-md-5">
+<input type="text" name="mentalAlzhei_cnt" ng-model="org.mentalAlzhei_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalAnxiet" ng-model="org.mentalAnxiet">Anxiety Disorders</label>
+<div class="col-md-5">
+<input type="text" name="mentalAnxiet_cnt" ng-model="org.mentalAnxiet_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalAttent" ng-model="org.mentalAttent">Attention Deficit Disorder</label>
+<div class="col-md-5">
+<input type="text" name="mentalAttent_cnt" ng-model="org.mentalAttent_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalChild" ng-model="org.mentalChild">Child and Adolescent Mental Health Disorders</label>
+<div class="col-md-5">
+<input type="text" name="mentalChild_cnt" ng-model="org.mentalChild_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalMoodD" ng-model="org.mentalMoodD">Mood Disorders</label>
+<div class="col-md-5">
+<input type="text" name="mentalMoodD_cnt" ng-model="org.mentalMoodD_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalOrgani" ng-model="org.mentalOrgani">Organic Mental Disorders</label>
+<div class="col-md-5">
+<input type="text" name="mentalOrgani_cnt" ng-model="org.mentalOrgani_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalPerson" ng-model="org.mentalPerson">Personality Disorders</label>
+<div class="col-md-5">
+<input type="text" name="mentalPerson_cnt" ng-model="org.mentalPerson_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalPsycho" ng-model="org.mentalPsycho">Psychoactive Substance Use Disorders</label>
+<div class="col-md-5">
+<input type="text" name="mentalPsycho_cnt" ng-model="org.mentalPsycho_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalSchizo" ng-model="org.mentalSchizo">Schizophrenia & Related Psychotic Disorders</label>
+<div class="col-md-5">
+<input type="text" name="mentalSchizo_cnt" ng-model="org.mentalSchizo_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalSexual" ng-model="org.mentalSexual">Sexual Disorders</label>
+<div class="col-md-5">
+<input type="text" name="mentalSexual_cnt" ng-model="org.mentalSexual_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalSleep" ng-model="org.mentalSleep">Sleep Disorders</label>
+<div class="col-md-5">
+<input type="text" name="mentalSleep_cnt" ng-model="org.mentalSleep_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalSomato" ng-model="org.mentalSomato">Somatoform and Dissociative Disorders</label>
+<div class="col-md-5">
+<input type="text" name="mentalSomato_cnt" ng-model="org.mentalSomato_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="musc_other" ng-model="org.musc_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="muscCollag" ng-model="org.muscCollag">Collagen Vascular Diseases</label>
+<div class="col-md-5">
+<input type="text" name="muscCollag_cnt" ng-model="org.muscCollag_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="muscDiscD" ng-model="org.muscDiscD">Disc Disease</label>
+<div class="col-md-5">
+<input type="text" name="muscDiscD_cnt" ng-model="org.muscDiscD_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="muscFibrom" ng-model="org.muscFibrom">Fibromyalgia</label>
+<div class="col-md-5">
+<input type="text" name="muscFibrom_cnt" ng-model="org.muscFibrom_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="muscJoint" ng-model="org.muscJoint">Joint Replacements</label>
+<div class="col-md-5">
+<input type="text" name="muscJoint_cnt" ng-model="org.muscJoint_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="muscMuscul" ng-model="org.muscMuscul">Musculoskeletal System Infections</label>
+<div class="col-md-5">
+<input type="text" name="muscMuscul_cnt" ng-model="org.muscMuscul_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="muscMuscul" ng-model="org.muscMuscul">Musculoskeletal System Tumors</label>
+<div class="col-md-5">
+<input type="text" name="muscMuscul_cnt" ng-model="org.muscMuscul_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="muscOsteoa" ng-model="org.muscOsteoa">Osteoarthritis</label>
+<div class="col-md-5">
+<input type="text" name="muscOsteoa_cnt" ng-model="org.muscOsteoa_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="muscOsteop" ng-model="org.muscOsteop">Osteoporosis</label>
+<div class="col-md-5">
+<input type="text" name="muscOsteop_cnt" ng-model="org.muscOsteop_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="muscPainS" ng-model="org.muscPainS">Pain Syndromes</label>
+<div class="col-md-5">
+<input type="text" name="muscPainS_cnt" ng-model="org.muscPainS_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="muscRheuma" ng-model="org.muscRheuma">Rheumatoid Arthritis</label>
+<div class="col-md-5">
+<input type="text" name="muscRheuma_cnt" ng-model="org.muscRheuma_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="nerv_other" ng-model="org.nerv_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="nervInflam" ng-model="org.nervInflam">Inflammatory Disease</label>
+<div class="col-md-5">
+<input type="text" name="nervInflam_cnt" ng-model="org.nervInflam_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="nervMigrai" ng-model="org.nervMigrai">Migraine Headaches</label>
+<div class="col-md-5">
+<input type="text" name="nervMigrai_cnt" ng-model="org.nervMigrai_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="nervMultip" ng-model="org.nervMultip">Multiple Sclerosis</label>
+<div class="col-md-5">
+<input type="text" name="nervMultip_cnt" ng-model="org.nervMultip_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="nervNervou" ng-model="org.nervNervou">Nervous System Tumors</label>
+<div class="col-md-5">
+<input type="text" name="nervNervou_cnt" ng-model="org.nervNervou_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="nervParkin" ng-model="org.nervParkin">Parkinson's Disease</label>
+<div class="col-md-5">
+<input type="text" name="nervParkin_cnt" ng-model="org.nervParkin_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="nervPeriph" ng-model="org.nervPeriph">Peripheral Nervous System</label>
+<div class="col-md-5">
+<input type="text" name="nervPeriph_cnt" ng-model="org.nervPeriph_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="rpf_other" ng-model="org.rpf_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpfEndome" ng-model="org.rpfEndome">Endometriosis</label>
+<div class="col-md-5">
+<input type="text" name="rpfEndome_cnt" ng-model="org.rpfEndome_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpfFemale" ng-model="org.rpfFemale">Female Reproductive System Infections</label>
+<div class="col-md-5">
+<input type="text" name="rpfFemale_cnt" ng-model="org.rpfFemale_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpfFemale" ng-model="org.rpfFemale">Female Reproductive System Malignancies</label>
+<div class="col-md-5">
+<input type="text" name="rpfFemale_cnt" ng-model="org.rpfFemale_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpfHotFl" ng-model="org.rpfHotFl">Hot Flashes</label>
+<div class="col-md-5">
+<input type="text" name="rpfHotFl_cnt" ng-model="org.rpfHotFl_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpfMenopa" ng-model="org.rpfMenopa">Menopause</label>
+<div class="col-md-5">
+<input type="text" name="rpfMenopa_cnt" ng-model="org.rpfMenopa_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpfMenstr" ng-model="org.rpfMenstr">Menstrual Problems</label>
+<div class="col-md-5">
+<input type="text" name="rpfMenstr_cnt" ng-model="org.rpfMenstr_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpfPostme" ng-model="org.rpfPostme">Postmenopausal Syndrome</label>
+<div class="col-md-5">
+<input type="text" name="rpfPostme_cnt" ng-model="org.rpfPostme_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpfPremen" ng-model="org.rpfPremen">Premenstrual Syndrome</label>
+<div class="col-md-5">
+<input type="text" name="rpfPremen_cnt" ng-model="org.rpfPremen_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpfVagini" ng-model="org.rpfVagini">Vaginitis</label>
+<div class="col-md-5">
+<input type="text" name="rpfVagini_cnt" ng-model="org.rpfVagini_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="rpm_other" ng-model="org.rpm_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpmImpote" ng-model="org.rpmImpote">Impotence</label>
+<div class="col-md-5">
+<input type="text" name="rpmImpote_cnt" ng-model="org.rpmImpote_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpmErecti" ng-model="org.rpmErecti">Erectile Dysfunction</label>
+<div class="col-md-5">
+<input type="text" name="rpmErecti_cnt" ng-model="org.rpmErecti_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpmMaleI" ng-model="org.rpmMaleI">Male Infertility</label>
+<div class="col-md-5">
+<input type="text" name="rpmMaleI_cnt" ng-model="org.rpmMaleI_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpmInfect" ng-model="org.rpmInfect">Infections</label>
+<div class="col-md-5">
+<input type="text" name="rpmInfect_cnt" ng-model="org.rpmInfect_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpmInflam" ng-model="org.rpmInflam">Inflammation</label>
+<div class="col-md-5">
+<input type="text" name="rpmInflam_cnt" ng-model="org.rpmInflam_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="rpmMalign" ng-model="org.rpmMalign">Malignancies</label>
+<div class="col-md-5">
+<input type="text" name="rpmMalign_cnt" ng-model="org.rpmMalign_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="nerv_other" ng-model="org.nerv_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="nervSeizur" ng-model="org.nervSeizur">Seizure Disorders</label>
+<div class="col-md-5">
+<input type="text" name="nervSeizur_cnt" ng-model="org.nervSeizur_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="nervStroke" ng-model="org.nervStroke">Stroke</label>
+<div class="col-md-5">
+<input type="text" name="nervStroke_cnt" ng-model="org.nervStroke_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="mental_other" ng-model="org.mental_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalAssess" ng-model="org.mentalAssess">Assessment of Therapeutic Technologies</label>
+<div class="col-md-5">
+<input type="text" name="mentalAssess_cnt" ng-model="org.mentalAssess_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="mentalRestle" ng-model="org.mentalRestle">Restless Legs Syndrome</label>
+<div class="col-md-5">
+<input type="text" name="mentalRestle_cnt" ng-model="org.mentalRestle_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="resp_other" ng-model="org.resp_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respAsthma" ng-model="org.respAsthma">Asthma</label>
+<div class="col-md-5">
+<input type="text" name="respAsthma_cnt" ng-model="org.respAsthma_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respBronch" ng-model="org.respBronch">Bronchitis</label>
+<div class="col-md-5">
+<input type="text" name="respBronch_cnt" ng-model="org.respBronch_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respChroni" ng-model="org.respChroni">Chronic Obstructive Pulmonary Disease</label>
+<div class="col-md-5">
+<input type="text" name="respChroni_cnt" ng-model="org.respChroni_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respCommon" ng-model="org.respCommon">Common Cold</label>
+<div class="col-md-5">
+<input type="text" name="respCommon_cnt" ng-model="org.respCommon_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respEmphys" ng-model="org.respEmphys">Emphysema</label>
+<div class="col-md-5">
+<input type="text" name="respEmphys_cnt" ng-model="org.respEmphys_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respPharyn" ng-model="org.respPharyn">Pharyngitis</label>
+<div class="col-md-5">
+<input type="text" name="respPharyn_cnt" ng-model="org.respPharyn_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respPneumo" ng-model="org.respPneumo">Pneumonia</label>
+<div class="col-md-5">
+<input type="text" name="respPneumo_cnt" ng-model="org.respPneumo_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respRespir" ng-model="org.respRespir">Respiratory System Malignancies</label>
+<div class="col-md-5">
+<input type="text" name="respRespir_cnt" ng-model="org.respRespir_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respRhinit" ng-model="org.respRhinit">Rhinitis</label>
+<div class="col-md-5">
+<input type="text" name="respRhinit_cnt" ng-model="org.respRhinit_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respSinusi" ng-model="org.respSinusi">Sinusitis</label>
+<div class="col-md-5">
+<input type="text" name="respSinusi_cnt" ng-model="org.respSinusi_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respSmokin" ng-model="org.respSmokin">Smoking Cessation</label>
+<div class="col-md-5">
+<input type="text" name="respSmokin_cnt" ng-model="org.respSmokin_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="respTonsil" ng-model="org.respTonsil">Tonsillitis</label>
+<div class="col-md-5">
+<input type="text" name="respTonsil_cnt" ng-model="org.respTonsil_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="skin_other" ng-model="org.skin_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinSkinAc" ng-model="org.skinSkinAc">SkinAcne</label>
+<div class="col-md-5">
+<input type="text" name="skinSkinAc_cnt" ng-model="org.skinSkinAc_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinAtopic" ng-model="org.skinAtopic">Atopic Dermatitis</label>
+<div class="col-md-5">
+<input type="text" name="skinAtopic_cnt" ng-model="org.skinAtopic_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinBacter" ng-model="org.skinBacter">Bacterial Infections</label>
+<div class="col-md-5">
+<input type="text" name="skinBacter_cnt" ng-model="org.skinBacter_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinContac" ng-model="org.skinContac">Contact Dermatitis</label>
+<div class="col-md-5">
+<input type="text" name="skinContac_cnt" ng-model="org.skinContac_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinFungal" ng-model="org.skinFungal">Fungal Infections</label>
+<div class="col-md-5">
+<input type="text" name="skinFungal_cnt" ng-model="org.skinFungal_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinHairD" ng-model="org.skinHairD">Hair Disorders</label>
+<div class="col-md-5">
+<input type="text" name="skinHairD_cnt" ng-model="org.skinHairD_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinInfest" ng-model="org.skinInfest">Infestations</label>
+<div class="col-md-5">
+<input type="text" name="skinInfest_cnt" ng-model="org.skinInfest_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinNailD" ng-model="org.skinNailD">Nail Disorders</label>
+<div class="col-md-5">
+<input type="text" name="skinNailD_cnt" ng-model="org.skinNailD_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinPsoria" ng-model="org.skinPsoria">Psoriasis</label>
+<div class="col-md-5">
+<input type="text" name="skinPsoria_cnt" ng-model="org.skinPsoria_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinSkin&" ng-model="org.skinSkin&">Skin & Soft Tissue Malignancies</label>
+<div class="col-md-5">
+<input type="text" name="skinSkin&_cnt" ng-model="org.skinSkin&_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinSkinU" ng-model="org.skinSkinU">Skin Ulcers</label>
+<div class="col-md-5">
+<input type="text" name="skinSkinU_cnt" ng-model="org.skinSkinU_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinUrtica" ng-model="org.skinUrtica">Urticaria</label>
+<div class="col-md-5">
+<input type="text" name="skinUrtica_cnt" ng-model="org.skinUrtica_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinViral" ng-model="org.skinViral">Viral Infections</label>
+<div class="col-md-5">
+<input type="text" name="skinViral_cnt" ng-model="org.skinViral_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="skinWound" ng-model="org.skinWound">Wound Healing</label>
+<div class="col-md-5">
+<input type="text" name="skinWound_cnt" ng-model="org.skinWound_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="urin_other" ng-model="org.urin_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a seperate line. Also, list the number of studies completed after each area name. Example:  Area of Expertise (5)"></textarea>
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="urinBenign" ng-model="org.urinBenign">Benign Prostatic Hypertrophy</label>
+<div class="col-md-5">
+<input type="text" name="urinBenign_cnt" ng-model="org.urinBenign_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="urinCalcul" ng-model="org.urinCalcul">Calculi</label>
+<div class="col-md-5">
+<input type="text" name="urinCalcul_cnt" ng-model="org.urinCalcul_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="urinProsta" ng-model="org.urinProsta">Prostate Disorders</label>
+<div class="col-md-5">
+<input type="text" name="urinProsta_cnt" ng-model="org.urinProsta_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="urinRenal" ng-model="org.urinRenal">Renal Failure</label>
+<div class="col-md-5">
+<input type="text" name="urinRenal_cnt" ng-model="org.urinRenal_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="urinUrinar" ng-model="org.urinUrinar">Urinary Incontinence</label>
+<div class="col-md-5">
+<input type="text" name="urinUrinar_cnt" ng-model="org.urinUrinar_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="urinUrinar" ng-model="org.urinUrinar">Urinary System Infections</label>
+<div class="col-md-5">
+<input type="text" name="urinUrinar_cnt" ng-model="org.urinUrinar_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
+<input type="checkbox" name="urinUrinar" ng-model="org.urinUrinar">Urinary System Malignancies</label>
+<div class="col-md-5">
+<input type="text" name="urinUrinar_cnt" ng-model="org.urinUrinar_cnt"  placeholder="Study Count">
+</div>
+</div>
+<div class="form-group">
+<label class="col-md-offset-2 col-md-2 checkbox-inline white-color">Other Areas </label>
+ <div class="col-md-6">
+<textarea class="form-control" name="gi_other" ng-model="org.gi_other_exp" rows="3" placeholder="OTHER AREAS: Type each additional area on a
