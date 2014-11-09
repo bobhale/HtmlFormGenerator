@@ -137,6 +137,7 @@ custReader.Close();
 
         private string setFormatHtml(string category, string therapy)
         {
+            // set to lowercase, remove embedded spaces with Regex, prepare varialbes
             string htmlName = category.ToLower() + therapy.Substring(0,6);
             htmlName = Regex.Replace(htmlName, @"\s+", "");
             string htmlModel = "org." + htmlName;
@@ -150,8 +151,9 @@ custReader.Close();
             sb.Append("</label>" + Environment.NewLine + "<div class=\"col-md-5\">" + Environment.NewLine);
             sb.Append("<input type=\"text\" name=\"" + htmlNameCnt + "\" ng-model=\"" + htmlModelCnt + "\"  placeholder=\"Study Count\">" + Environment.NewLine);
             sb.Append("</div>" + Environment.NewLine + "</div>" + Environment.NewLine);
-                
-            /*
+
+            // produces the following html..... well except for the variables
+            /*  <div class="form-group">
                 <label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
                     <input type="checkbox" name="aud_vertigo" ng-model="org.aud_vertigo" value="">Dysrythmias
                 </label>
@@ -178,6 +180,8 @@ custReader.Close();
 
             return sb.ToString();
         }
+
+        // produces the following html code
        /* <div class="form-group">
                 <label class="col-md-offset-2 col-md-2 checkbox-inline white-color">
                     Other Areas
